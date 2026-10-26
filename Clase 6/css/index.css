@@ -21,7 +21,7 @@ section {
     align-items: center;
     padding: 36px;
 
-    max width: 1024px;
+    max-width: 1024px;
     min-height: 500px;
 }
 

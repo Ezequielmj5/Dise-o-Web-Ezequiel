@@ -132,10 +132,6 @@ a {
     justify-content: space-between;
 }
 
-.btn {
-
-}
-
 .d__cards {
     display: flex;
     gap: 16px;
@@ -153,4 +149,73 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* E */
+
+.e {
+    padding: 48px 0;
+    background-color: #fbfbfb;
+}
+
+.e__block {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 48px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.e__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    align-items: start;
+}
+
+.e__texts {
+    display: flex;
+    gap: 16px;
+    padding: 16px 0;
+    flex-wrap: wrap;
+}
+
+.e__text {
+    flex: 1 1 300px;
+}
+
+/* F */
+
+.f {
+    max-width: 920px;
+    padding: 16px;
+    gap: 48px;
+}
+
+.f__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.f__image {
+
+}
+
+.f__content {
+
+}
+
+.f__texts {
+
+}
+
+.f__text {
+
+}
+
+.f__content2 {
+
 }
