@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-grey: #606060;
+    --color-light-grey: #f0f0f0;
+    --color-bg: #FBFBFB;
+
+    /* Space */
+    --space-xxs: 8px;
+    --space-xs: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-xxl: 64px;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* components */
+h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.big {
+    font-size: 18px;
+    
+}
+
+.eyebrow {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #606060;
+    text-transform: uppercase;
+}
+
+.small {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 73px;
+    font-size: 15px;
+
+    display: inline-block;
+}
+
+.menu-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 500;
+    gap: var(--space-xxs);
+    align-items: center;
+}
+
+.block {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    padding: var(--space-md);
+    background-color: var(--color-bg);
+    
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    max-width: 75px;
+}
+
+.header__nav {
+
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    gap: var(--space-lg);
+    align-items: center;
+}
